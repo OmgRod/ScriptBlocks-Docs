@@ -1,0 +1,10 @@
+site_name: ScriptBlocks
+theme:
+  name: bootstrap
+repo_url: https://github.com/ScriptBlocks/ScriptBlocks
+
+nav:
+  - Home: index.md
+  - Volume 1 - Getting Started:
+    - Installation: volume1/installing.md
+  - Creating Sprites: creating-sprites.md
