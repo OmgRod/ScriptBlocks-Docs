@@ -4,7 +4,7 @@ Sprites are a fundamental concept when developing using ScriptBlocks, so in this
 
 ## Loading the Sprite
 
-First, we need to initialise our project. So, in `main.py`, we type the following:
+First, we need to initialize our project. So, in `main.py`, we type the following:
 
 ```py
 import scriptblocks
@@ -65,7 +65,7 @@ testSprite.toggleVisibility()
 And lastly the fourth one changes the visibility based on the boolean value sent:
 
 ```py
-testSprite.setVisible(true) # Use true to show and false to hide
+testSprite.setVisible(True) # Use true to show and false to hide
 ```
 
 ### Changing the scale
@@ -76,7 +76,7 @@ The final main way to manipulate a sprite is by changing its scale. There are 6 
 testSprite.setScaleX(1.25)
 ```
 
-The second way is to only scale it in the Y axis, with 1 being 10% of the default size:
+The second way is to only scale it in the Y axis, with 1 being 100% of the default size:
 
 ```py
 testSprite.setScaleY(0.5)
